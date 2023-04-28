@@ -1,0 +1,42 @@
+hrml {
+    font-size: 35pt;
+    text-align:leftß
+}
+body {
+    background-color: rgb(13, 0, 114);
+    width:1800px;
+    font-size:0.7rem;
+    text-align:left;
+    font-family:宋体-简
+}
+
+article {
+    font-size: 2em;
+    text-align:left
+}
+
+h1 {
+    font-size:12em;
+    color: rgb(248, 255, 143);
+    text-align:left;
+}
+
+h2 {
+    font-size:7em;
+    color: rgb(214, 254, 255);
+    font-weight:bold;
+    text-align:left;
+}
+
+p {
+    color:rgb(162, 233, 255);
+    font-size: 7em;
+    text-decoration:overline;
+    text-align:left;
+    font-style:normal;
+    line-height: 1.2;
+}
+
+a {
+    color:rgb(255, 200, 255);
+}

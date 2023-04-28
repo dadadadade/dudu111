@@ -1,0 +1,41 @@
+hrml {
+    font-size: 30pt;
+    text-align:center
+}
+body {
+    background-color: rgb(252, 255, 70);
+    width:1600px;
+    font-size:0.3rem;
+    text-align:center
+}
+
+article {
+    font-size: 1em;
+    text-align :center
+}
+
+h1 {
+    font-size:10em;
+    color: rgb(0, 123, 8);
+    text-align:center
+}
+
+h2 {
+    font-size:6em;
+    color: rgb(13, 249, 5);
+    text-align:center
+}
+
+p {
+    color:rgb(40, 0, 150);
+    text-align:center;
+    background-color: rgb(255, 254, 200);
+    font-size: 5em;
+    text-decoration:underline;
+    text-align:center;
+    font-style:italic;
+}
+
+a {
+    color:rgb(57, 54, 57);
+}
