@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常见网页布局1</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        /* 只要是通栏的盒子(和浏览器一样宽) 不需要指定宽度 */
+        .top{
+            height: 50px;
+            background-color: #ffd4fb;
+            line-height: 50px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .banner{
+            width: 980px;
+            height: 150px;
+            background-color: #e6c1ff;
+            line-height: 150px;
+            text-align: center;         
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .box-t{
+            width: 980px;
+            height: 150px;  
+            background-color:#transparent;         
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        .box-t li{
+            float: left;
+            width: 237px;  
+            height: 150px;  
+            background-color: #8f8fff;  
+            margin-right: 10px;
+        }
+
+        .box-b{
+            width: 980px;
+            height: 350px;  
+            background-color:transparent;         
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+        .box-b li{
+            float: left;
+            width: 237px;  
+            height: 350px;  
+            background-color: #eeff6f;  
+            margin-right: 10px;
+        }
+        .box-t .last,.box-b .last{
+            margin-right: 0px;
+        }
+        .footer{
+            height: 300px;
+            background-color: #ffe371;
+            line-height: 300px;
+            text-align: center;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="top">hello</div>
+    <div class="banner">welcome to dudu's web</div>
+    <div class="box-t">
+        <ul>
+            <li>book</li>
+            <li>space</li>
+            <li>typeface</li>
+            <li class="last">brand</li>
+        </ul>
+    </div>
+
+    <div class="box-b">
+        <ul>
+            <li>The House of the Spirits
+                Hypnotic sound<br />
+                Hair Diary
+            </li>
+            <li></li>
+            <li></li>
+            <li class="last"></li>
+        </ul>
+    </div>
+
+    
+
+    <div class="footer">      
+         <a href="../index.html" id="back">back</a>
+        <a href="css-basics.html" >板式1</a>
+        <a href="css-basics2.html">板式2</a>
+        <a href="css-basics3.html">板式3</a>
+        <a href="css-basics4.html" >板式4</a>
+        <a href="css-basics5.html" >板式5</a>
+        <a href="css-basics6.html" >板式6</a>
+        <a href="css-basics7.html" >板式7</a>
+        <a href="css-basics8.html" >板式8</a>
+        <a href="css-basics9.html" >板式9</a>
+        <a href="css-basics10.html" >板式10</a>
+        <a href="css-basics11.html" >板式11</a>
+        <a href="css-basics12.html" >板式12</a>
+        <a href="css-basics13.html" >板式13</a>
+        <a href="css-basics14.html" >板式14</a>
+        <a href="css-basics15.html" >板式15</a>
+</body>
+</html>
+

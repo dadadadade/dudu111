@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: pink;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 48px;
+	color: white;
+	margin: 0;
+}
+
+main {
+	padding: 50px;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+section h2 {
+	font-size: 36px;
+	color: pink;
+	margin-bottom: 20px;
+}
+
+section p {
+	font-size: 18px;
+	color: gray;
+}
+
+.design-element {
+	margin-top: 30px;
+	position: relative;
+}
+
+
+
+.design-element:hover p {
+	opacity: 1;
+}
+
+.design-element img {
+	width: 100%;
+	height: auto;
+	transition: filter 0.5s;
+}
+
+.design-element:hover img {
+	filter: grayscale(100%);
+}
+
+footer {
+	background-color: pink;
+	padding: 20px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}

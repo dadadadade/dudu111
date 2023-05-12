@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #0077be;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    color: #0077be;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .graphic-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: #0077be;
+    border-radius: 50%;
+    animation: move-circle 2s ease-in-out infinite alternate;
+  }
+  
+  .triangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0077be;
+    animation: move-triangle 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes move-circle {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: calc(100% - 100px);
+    }
+  }
+  
+  @keyframes move-triangle {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: calc(100% - 100px);
+    }
+  }
+  

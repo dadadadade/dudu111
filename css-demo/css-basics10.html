@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            /* 本例12个文字(加标点符号)；有多少个文字，width就是多少个em */
+            width: 12em;
+            /* 加上两个动画，一个是打字动画，使用steps让字一个一个的出现，
+             注意step和字数保持一致，光标动画也是同理，*/
+            animation: typingWords 5s steps(12) infinite, cursor 0.5s steps(1) infinite;
+            /* 要设置不允许换行，且溢出隐藏 */
+            white-space: nowrap;
+            overflow: hidden;
+            /* 使用右边框作为打印的指针光标 */
+            border-right: 1px solid #000;
+        }
+
+        @keyframes typingWords {
+            0% {
+                width: 0;
+            }
+        }
+
+        @keyframes cursor {
+            50% {
+                border-color: transparent;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>welcome to dudu's web</h1>
+    <!-- lalala -->
+
+
+    <a href="../index.html" id="back">back</a>
+    <a href="css-basics.html" >板式1</a>
+    <a href="css-basics2.html">板式2</a>
+    <a href="css-basics3.html">板式3</a>
+    <a href="css-basics4.html" >板式4</a>
+    <a href="css-basics5.html" >板式5</a>
+    <a href="css-basics6.html" >板式6</a>
+    <a href="css-basics7.html" >板式7</a>
+    <a href="css-basics8.html" >板式8</a>
+    <a href="css-basics9.html" >板式9</a>
+    <a href="css-basics10.html" >板式10</a>
+    <a href="css-basics11.html" >板式11</a>
+    <a href="css-basics12.html" >板式12</a>
+    <a href="css-basics13.html" >板式13</a>
+    <a href="css-basics14.html" >板式14</a>
+    <a href="css-basics15.html" >板式15</a>
+</body>
+
+</html>
